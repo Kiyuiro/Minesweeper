@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#level_select {
+    width: 240px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80px;
+    margin: auto;
+}
+
+#level_select input {
+    width: 50px;
+    height: 20px;
+    border-radius: 1em;
+    border: 1px solid #66ccff;
+    margin: 0.2em 1em 0 1em;
+    outline: none;
+    cursor: pointer;
+}
+
+#level_select input:hover {
+    background: #66ccff;
+}
+
+#info {
+    width: 220px;
+    height: 20px;
+    position: relative;
+    left: 25px;
+    right: 0;
+    top: 105px;
+    margin: auto;
+}
+
+#easy {
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 130px;
+    margin: auto;
+}
+
+#normal {
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 130px;
+    margin: auto;
+}
+
+#hard {
+    width: 900px;
+    height: 480px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 130px;
+    margin: auto;
+}
+
+.level ul li{
+    text-align: center;
+}
+
+.level ul li img{
+    width: 25px;
+    height: 25px;
+}
+
+.level ul li:hover{
+    opacity: 0.5;
+}

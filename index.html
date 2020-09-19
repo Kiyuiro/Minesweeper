@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<div id="level_select">
+    <input type="button" value="初级" onclick=Start("easy")>
+    <input type="button" value="中级" onclick=Start("normal")>
+    <input type="button" value="高级" onclick=Start("hard")>
+</div>
+<div id="info">
+    剩余地雷:<p style="display: inline" id="landmine">0</p>
+    &nbsp&nbsp
+    Time:<p style="display: inline" id="time">0</p>s
+</div>
+<div class="level" id="easy">
+    <ul style="list-style: none"></ul>
+</div>
+
+<script src="src/game.js"></script>
+</body>
+</html>
